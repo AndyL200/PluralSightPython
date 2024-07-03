@@ -10,7 +10,6 @@ else:
 
 forecast = ["rainy", "cloudy", "sunny"]
 howMany = int(input("On a scale of 0 to 2 how many clouds are in the sky?"))
-function conditions{}
 if howMany == 0:
     print(forecast[0])
 elif howMany == 1:
